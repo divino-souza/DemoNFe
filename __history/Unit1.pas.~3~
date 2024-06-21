@@ -1,0 +1,42 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, System.IniFiles, spdNFe;
+
+type
+  TForm1 = class(TForm)
+    spdNFe: TspdNFe;
+    Edit1: TEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    NFe : TspdNFe;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+caminho :string;
+
+begin
+    caminho := ExtractFileDir(GetCurrentDir);
+
+
+    NFe.ConfigurarSoftwareHouse('29062609000177','1DuS5BCloe2EeZ0I9D5j19fcwF79ychg3OSkyvAL');
+
+    NFe.LoadConfig('C:\Users\usuarios.delphi-5\Desktop\DFe Divino\TesteGitHub\DemoNFe\Win32\Debug\nfeconfig.ini');
+
+end;
+
+end.

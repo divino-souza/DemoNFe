@@ -1,0 +1,11 @@
+21/06/2024,17:39:01:132 spdLicenseNFe: Iniciando validao de licença via API
+21/06/2024,17:39:01:132 spdLicenseNFe: Checando se os parâmetros estão configurados
+21/06/2024,17:39:01:132 spdLicenseNFe: Verificando se o arquivo de licença spdLicenseNFe.dat já existe.
+21/06/2024,17:39:01:147 spdLicenseNFe: Iniciando geração do arquivo de licença.
+21/06/2024,17:39:01:147 spdLicenseNFe: Realizando consulta na API para obter a situação da licença do cliente: CPFCNPJ: 29062609000177 CPFCNPJSH: 29062609000177
+21/06/2024,17:39:02:100 spdLicenseNFe: Ativando licença do cliente: CPFCNPJ: 29062609000177 e CNPJSH: 29062609000177
+21/06/2024,17:39:02:116 spdLicenseNFe: Escrevendo não arquivo de licença: spdLicenseNFe.dat
+21/06/2024,17:39:02:116 spdLicenseNFe: Verificando se o arquivo de licença spdLicenseNFe.dat já existe.
+21/06/2024,17:39:02:116 spdLicenseNFe: Verificando se a ultima data de verificao já expirou
+21/06/2024,17:39:02:131 spdLicenseNFe: Validando integridate da licença
+21/06/2024,17:39:02:131 spdLicenseNFe: Licença valida para o cliente CPFCNPJ: 29062609000177 CPFCNPJSH: 29062609000177
