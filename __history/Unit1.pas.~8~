@@ -42,8 +42,6 @@ begin
 
     spdNFe.LoadConfig('C:\Users\usuarios.delphi-5\Desktop\DFe Divino\TesteGitHub\DemoNFe\Win32\Debug\nfeconfig.ini');
 
-    //teste de inserção Gabriel
-
 end;
 
 procedure TForm1.ConsultarStatusClick(Sender: TObject);
